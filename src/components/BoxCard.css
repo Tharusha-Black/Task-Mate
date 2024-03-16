@@ -1,0 +1,43 @@
+.box p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.box {
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 4px;
+    padding: 20px 5px;
+    border: 0px;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+}
+
+.box.alert {
+    background-color: rgba(255, 34, 5, 0.404);
+}
+
+.box.warning {
+    background-color: rgba(255, 192, 19, 0.3);
+}
+
+.box.success {
+    background-color: rgba(14, 192, 23, 0.3);
+}
+
+.box p.title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.box p.description {
+    font-weight: bold;
+    font-size: 14px;
+}
+.box button {
+    width: 200px;
+    margin-top: 20px;
+    display: inline-block;
+}
